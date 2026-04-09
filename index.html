@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY OMALICHA</title>
     <style>
         body {
@@ -14,14 +15,15 @@
             flex-direction: column;
             align-items: center;
             min-height: 100vh;
-            border: 5px double #D4AF37; 
+            border: 5px double #D4AF37;
             margin: 10px;
             box-sizing: border-box;
             position: relative;
             overflow-x: hidden;
+            font-size: 1.2rem;
+            line-height: 1.6;
         }
 
-      
         body::before {
             content: "🤍";
             position: fixed;
@@ -33,33 +35,73 @@
             z-index: -1;
         }
 
-        h1, h2 {
+        h1 {
+            color: #D4AF37;
             font-family: 'Times New Roman', serif;
             text-transform: uppercase;
             letter-spacing: 3px;
-            text-shadow: 2px 2px 4px rgba(212, 175, 55, 0.3); /* Soft gold glow */
+            text-shadow: 2px 2px 4px rgba(212, 175, 55, 0.3);
+            font-size: 2rem;
+            margin-bottom: 20px;
         }
 
-        /* Animating the hearts on the button */
+        h2 {
+            color: #D4AF37;
+            font-size: 1.4rem;
+            margin-top: 30px;
+        }
+
+        p {
+            max-width: 600px;
+            margin: 10px auto;
+        }
+
+        ul {
+            text-align: left;
+            display: inline-block;
+            margin: 20px auto;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            color: #D4AF37;
+            text-decoration: none;
+            border: 2px solid #D4AF37;
+            padding: 12px 25px;
+            border-radius: 30px;
+            display: inline-block;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: 0.3s;
+        }
+
         .btn:hover {
             transform: scale(1.05);
-            transition: 0.3s;
+            background-color: rgba(212, 175, 55, 0.1);
         }
     </style>
 </head>
+<body>
 
- <body style="background-color:black;">
-<h1 style="color:#D4AF37;">I AM NOT ANGRY AT YOU BABE</h1>
-<p style="color:#f1faee;">Yes, you hurt my feelings and made me go cold to something i cherished, but that's just part of the risk I took in loving you, i would appreciate more effort henceforth and treating the things i value the way i treat yours, and I'm sorry for cussing and getting angry at you</p>
-<h2 style="color:#D4AF37;">REASONS WHY I'M NOT ANGRY AT YOU</h2>
-<div style="display:flex;
-justify-content: center;width:100%;">
-<ul style="text-align:left;color:#f1faee;line-height: 1.8;font-size:18px;">
- <li> You have done more to make me smile than frown</li>
- <li> You are my girlfriend, therefore my pride</li>
- <li> You have nyash small</li>
- </ul>
- </div>
- <p style="color:#f1faee;">click the link below to make up with ur BF via Whatsapp 👇</p>
- <a href="https://wa.me/2349067081566" style="color:#D4AF37; text-decoration:none; border:2px solid #D4AF37; padding:12px 20px; border-radius:30px; display:inline-block; font-weight:bold; margin-top:10px;">let's talk it out ❤️🔥</a>
- </body>
+    <h1>I AM NOT ANGRY AT YOU BABE</h1>
+    
+    <p>Yes, you hurt my feelings and made me go cold to something i cherished, but that's just part of the risk i took in loving you, i would appreciate more effort henceforth and treating the things i value the way i treat yours, and I'm sorry for cussing and getting angry at you</p>
+
+    <h2>REASONS WHY I'M NOT ANGRY AT YOU</h2>
+    
+    <ul>
+        <li>You have done more to make me smile than frown</li>
+        <li>You are my girlfriend, therefore my pride</li>
+        <li>You have nyash small</li>
+    </ul>
+
+    <p>click the link below to make up with ur BF via Whatsapp 👇</p>
+    
+    <a href="https://wa.me/2349067081566" class="btn">let's talk it out ❤️🔥</a>
+
+</body>
+</html>
